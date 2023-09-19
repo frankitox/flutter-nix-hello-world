@@ -24,6 +24,7 @@
               flutter
               jdk11
               #from ./nix/*
+              android.androidsdk # adds `emulator` to path
               android.platform-tools
             ];
 
